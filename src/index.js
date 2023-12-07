@@ -1,4 +1,5 @@
-import {heroes} from './data/heroes'
+import heroes,{owners} from './data/heroes_defecto'
+console.log("owners",owners)
 // console.log(heroes)
 
 // const getHeroeById = (id) =>{
