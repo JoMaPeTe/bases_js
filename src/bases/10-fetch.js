@@ -1,5 +1,4 @@
-const apiKey =process.env.REACT_APP_TITLE ;
-console.log(apiKey)
+const apiKey = process.env.NODE_ENV_REACT_APP_TITLE ;
 const urlPeticion= `https:/api.giphy.com/v1/gifs/random?api_key=${apiKey}`
 const peticion = fetch(urlPeticion)
 
